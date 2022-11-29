@@ -1,9 +1,11 @@
-import LoginForm from "./Components/LoginForm";
-
+import DashBoard from "./Components/DashBoard";
+// import LoginForm from "./Components/LoginForm";
+import "./App.css"
 function App() {
   return (
     <div>
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <DashBoard/>
     </div>
   );
 }
